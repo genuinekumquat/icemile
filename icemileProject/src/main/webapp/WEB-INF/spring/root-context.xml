@@ -10,8 +10,9 @@
 	<!-- 히카리 커넥션풀 설정 -->
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
         <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"/>
-        <property name="jdbcUrl" value="jdbc:log4jdbc:mysql://c1d2304t12.itwillbs.com:3306/c1d2304t12?allowMultiQueries=true&amp;serverTimezone=Asia/Seoul"/>
-        <property name="username" value="c1d2304t12"/>
+        <!-- 로컬 MySQL. 아래 스키마명/계정/비밀번호를 본인 환경에 맞게 수정할 것 -->
+        <property name="jdbcUrl" value="jdbc:log4jdbc:mysql://localhost:3306/icemile?allowMultiQueries=true&amp;serverTimezone=Asia/Seoul&amp;characterEncoding=UTF-8"/>
+        <property name="username" value="root"/>
         <property name="password" value="1234"/>
     </bean>
     <!-- 히카리 커넥션풀 설정 End-->
