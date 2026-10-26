@@ -1,3 +1,5 @@
+**한국어** | [日本語](README.ja.md)
+
 # ICEMILE — 웹 MES 시스템
 
 아이스크림 공장의 **제조실행시스템(MES, Manufacturing Execution System)**. 원자재 발주부터
